@@ -1,15 +1,18 @@
 {
   "name": "lin.css",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Minimalistic CSS-only UI framework",
   "main": "dist/lin.min.css",
   "scripts": {
+    "start": "npm install && npm run build:site && npm run serve",
     "clean": "rm -rf dist",
+    "clean:site": "rm -rf site/dist",
     "copy": "cp -rf dist site/dist",
     "build:normal": "node-sass src/index.scss dist/lin.css",
     "build:compressed": "node-sass src/index.scss dist/lin.min.css --output-style compressed",
     "build": "npm run clean && npm run build:normal && npm run build:compressed",
-    "build:site": "npm run build && npm run copy"
+    "build:site": "npm run clean:site && npm run build:compressed && npm run copy",
+    "serve": "live-server site"
   },
   "repository": {
     "type": "git",
@@ -28,7 +31,11 @@
     "url": "https://github.com/ssokurenko/lin.css/issues"
   },
   "homepage": "https://github.com/ssokurenko/lin.css#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  },
   "devDependencies": {
+    "live-server": "^1.2.1",
     "node-sass": "^4.12.0"
   }
 }

@@ -1,4 +1,45 @@
-$color-light-gray: #fafafa;
+//Colors
+$color-light-gray: #fafafa !default;
+$color-white: #fff;
+$color-black: #000;
 
-$font-sans-serif: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-$font-normal: 300;
+//Borders
+$border-radius: 4px;
+
+//Typography
+$font-sans-serif: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif  !default;
+$font-normal: 300 !default;
+
+//Grid
+$enable-grid-classes: true !default;
+$grid-gutter-width: 3rem !default;
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+) !default;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;
+$grid-columns: 12 !default;
+$displays: none, inline, inline-block, block, table, table-row, table-cell, flex, inline-flex !default;
+
+// Spacers
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 1.5),
+    5: ($spacer * 3)
+  ),
+  $spacers
+);
