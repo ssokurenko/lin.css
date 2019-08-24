@@ -1,0 +1,9 @@
+.is {
+  &-flex {
+    display: flex;
+
+    &-center {
+      align-items: center;
+    }
+  }
+}
