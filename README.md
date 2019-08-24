@@ -7,3 +7,5 @@ Minimalistic CSS-only UI framework
 Install package dependencies: `npm install`.
 
 Build: `npm run build`.
+
+Publish: `npm publish`.

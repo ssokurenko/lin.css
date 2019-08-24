@@ -1,8 +1,8 @@
 {
   "name": "lin.css",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Minimalistic CSS-only UI framework",
-  "main": "dist/lin.css",
+  "main": "dist/lin.min.css",
   "scripts": {
     "clean": "rm -rf dist",
     "build:normal": "node-sass src/index.scss dist/lin.css",
