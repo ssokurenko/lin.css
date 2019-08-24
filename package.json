@@ -1,6 +1,6 @@
 {
   "name": "lin.css",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Minimalistic CSS-only UI framework",
   "main": "dist/lin.min.css",
   "scripts": {
@@ -31,11 +31,9 @@
     "url": "https://github.com/ssokurenko/lin.css/issues"
   },
   "homepage": "https://github.com/ssokurenko/lin.css#readme",
-  "dependencies": {
-    "bootstrap": "^4.3.1"
-  },
   "devDependencies": {
     "live-server": "^1.2.1",
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.12.0",
+    "bootstrap": "^4.3.1"
   }
 }
