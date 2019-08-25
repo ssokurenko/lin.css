@@ -31,19 +31,15 @@
 <body>
   <div class="container mt-3 mb-3">
     <div class="row lin-card">
+      <div class="col-md-4 col-sm-12 mt-2 is-flex-center">
+        <img src="/assets/logo.png" alt="lin.css" width="60" height="60">
+        <div class="lin-logo">lin.css</div>
+      </div>
+      <div class="col-md-8 col-sm-12 mt-2 text-right">
+        <h1>Minimalistic CSS framework</h1>
+      </div>
       <div class="col-md-12">
-        <div class="row">
-          <div class="col-md-4 col-sm-12 is-flex-center">
-            <img src="/assets/logo.png" alt="lin.css" width="60" height="60">
-            <div class="lin-logo">lin.css</div>
-          </div>
-          <div class="col-md-8 col-sm-12 text-right">
-            <h1>Minimalistic CSS framework</h1>
-          </div>
-          <div class="col-md-12">
-            <div class="divider"></div>
-          </div>
-        </div>
+        <div class="divider"></div>
       </div>
       <div class="col-md-12">
         <h1>Advantages</h1>
@@ -56,37 +52,57 @@
         </ul>
       </div>
       <div class="col-md-12">
+        <h1>Quick start</h1>
+        <p>Copy-paste the stylesheet <strong>&lt;link&gt;</strong> into the <strong>&lt;head&gt;</strong> section of your <strong>index.html</strong> file:</p>
+        <div class="lin-code">
+          &lt;link rel="stylesheet" href="https://lin-css.netlify.com/dist/lin.min.css"&gt;
+        </div>
+        <p>
+          Alternatively, download the compressed stylesheet from <a href="https://lin-css.netlify.com/dist/lin.min.css">this site</a>, or <a
+            href="https://raw.githubusercontent.com/ssokurenko/lin.css/master/dist/lin.min.css">Github</a>.
+        </p>
+        <p>Or install from npm, using the following terminal command:</p>
+        <div class="lin-code is-terminal">
+npm install lin.css --save
+        </div>
+        <p>And add the link as a reference to a local file:</p>
+        <div class="lin-code">
+          &lt;link rel="stylesheet" href="./dist/lin.min.css"&gt;
+        </div>
+        <p>Note: update the path according to your file structure.</p>
+      </div>
+      <div class="col-md-12">
         <h1>Documentation</h1>
       </div>
       <div class="col-md-12">
         <h2>Card</h2>
         <div class="row">
-          <div class="col-md-6 col-sm-12">
+          <div class="col-md-6 col-sm-12 mb-2">
             <div class="lin-code">
-<pre>
+              <pre>
 &lt;div class="lin-card"&gt;
   Card elevated
 &lt;/div&gt;
 </pre>
             </div>
           </div>
-          <div class="col-md-6 col-sm-12">
+          <div class="col-md-6 col-sm-12 mb-2">
             <div class="lin-card">
               Card elevated
             </div>
           </div>
         </div>
         <div class="row mt-2">
-          <div class="col-md-6 col-sm-12">
+          <div class="col-md-6 col-sm-12 mb-2">
             <div class="lin-code">
-<pre>
+              <pre>
 &lt;div class="lin-card is-flat"&gt;
   Card flat
 &lt;/div&gt;
 </pre>
             </div>
           </div>
-          <div class="col-md-6 col-sm-12">
+          <div class="col-md-6 col-sm-12 mb-2">
             <div class="lin-card is-flat">
               Card flat
             </div>

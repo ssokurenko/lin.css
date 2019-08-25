@@ -4,4 +4,14 @@
   background: $color-light-gray;
   border-left: 4px solid $color-green;
   padding: $spacer;
+
+  &.is-terminal {
+    background: $color-black;
+    color: $color-white;
+    
+    &:before {
+      content: '$';
+      margin-right: $spacer / 2;
+    }
+  }
 }

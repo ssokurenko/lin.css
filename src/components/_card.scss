@@ -6,6 +6,10 @@
   border-color: transparent;
   padding: $spacer;
 
+  &.row {
+    padding: 0;
+  }
+
   &.is-flat {
     @include flattened;
     border-color: $color-middle-gray;
