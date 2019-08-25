@@ -1,5 +1,14 @@
-.card {
+.lin-card {
+  @include bordered;
+  @include elevated;
   background: $color-white;
   border-radius: $border-radius;
+  border-color: transparent;
   padding: $spacer;
+
+  &.is-flat {
+    @include flattened;
+    border-color: $color-middle-gray;
+  }
+  
 }
