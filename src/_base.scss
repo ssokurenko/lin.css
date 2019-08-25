@@ -14,3 +14,13 @@ h1, h2, h3, h4, h5, h6 {
 pre {
   margin: 0;
 }
+
+a {
+  color: $color-primary;
+  text-decoration: none;
+
+  &:hover {
+    padding-bottom: 2px;
+    border-bottom: 4px solid $color-primary;
+  }
+}
