@@ -2461,12 +2461,59 @@ html {
   .mx-xl-auto {
     margin-left: auto !important; } }
 
+.is-flex {
+  display: flex; }
+  .is-flex-center {
+    display: flex;
+    align-items: center; }
+
+.text-center {
+  text-align: center !important; }
+
+.text-left {
+  text-align: left !important; }
+
+.text-right {
+  text-align: right !important; }
+
 body {
   background: #fafafa;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  color: #212121;
+  margin: 0;
+  line-height: 1.4; }
+
+h1, h2, h3, h4, h5, h6 {
   font-weight: 300; }
 
-.card {
-  background: #fff;
+pre {
+  margin: 0; }
+
+.lin-logo {
+  font-size: 2.2rem;
+  margin-left: 1rem; }
+
+.divider {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #dadada; }
+
+.lin-card {
+  border: 1px solid #fafafa;
   border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  background: #fff;
+  border-color: transparent;
+  padding: 1rem; }
+  .lin-card.is-flat {
+    box-shadow: none;
+    border-color: #dadada; }
+
+.lin-code {
+  font-family: monospace;
+  font-size: 1.2rem;
+  background: #fafafa;
+  border-left: 4px solid #4CAF50;
   padding: 1rem; }

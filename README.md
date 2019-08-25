@@ -17,4 +17,4 @@ Run dev server: `npm run serve`.
 
 Stop dev server: `CTRL` + `C`.
 
-Publish to NPM: `npm publish`.
+Publish to NPM: `npm run publish:npm`.
