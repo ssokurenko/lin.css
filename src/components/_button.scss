@@ -1,5 +1,6 @@
 .lin-button {
   @include rounded();
+  @include elevated();
   display: inline-block;
   padding: .7*$spacer  1.2*$spacer;
   background: $color-primary;
@@ -9,6 +10,10 @@
   font-size: 1.1rem;
   margin: 2px;
   letter-spacing: .6px;
+
+  &.is-flat {
+    @include flattened();
+  }
 
   &:hover {
     background: darken($color-primary, 5);
