@@ -2651,7 +2651,8 @@ a {
   color: #fff;
   cursor: pointer;
   border: none;
-  font-size: 1.1rem; }
+  font-size: 1.1rem;
+  margin: 2px; }
   .lin-button:hover {
     background: #449d48; }
   .lin-button.is-secondary {
