@@ -6,7 +6,9 @@
 @import "./text";
 @import "./base";
 
-@import "./components/logo.scss";
-@import "./components/divider.scss";
-@import "./components/card.scss";
-@import "./components/code.scss";
+@import "./components/logo";
+
+@import "./components/button";
+@import "./components/card";
+@import "./components/code";
+@import "./components/divider";

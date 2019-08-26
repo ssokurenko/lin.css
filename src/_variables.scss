@@ -3,11 +3,14 @@ $color-light-gray: #fafafa;
 $color-middle-gray: #dadada;
 $color-white: #fff;
 $color-black: #212121;
-$color-dark-green: #388E3C;
 $color-green: #4CAF50;
+$color-dark-green: #388E3C;
+$color-blue: #03A9F4;
 $color-red: #FF5252;
 
 $color-primary: $color-green !default;
+$color-secondary: $color-blue !default;
+$color-danger: $color-red !default;
 
 //Borders
 $border-radius: 4px;

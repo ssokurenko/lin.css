@@ -1,0 +1,42 @@
+.lin-button {
+  @include rounded();
+  display: inline-block;
+  padding: .7*$spacer  1.2*$spacer;
+  background: $color-primary;
+  color: $color-white;
+  cursor: pointer;
+  border: none;
+  font-size: 1.1rem;
+
+  &:hover {
+    background: darken($color-primary, 5);
+  }
+
+  &.is-secondary {
+    background: $color-secondary;
+
+    &:hover {
+      background: darken($color-secondary, 5);
+    }
+  }
+
+  &.is-danger {
+    background: $color-danger;
+
+    &:hover {
+      background: darken($color-danger, 5);
+    }
+  }
+
+  &.is-big {
+    font-size: 1.4rem;
+    padding: .8*$spacer  1.5*$spacer;
+  }
+
+  &:disabled,
+  &.is-disabled {
+    background: $color-middle-gray !important;
+    color: $color-black !important;
+    pointer-events: none;
+  }
+}
