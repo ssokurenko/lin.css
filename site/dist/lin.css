@@ -783,7 +783,8 @@ a {
   cursor: pointer;
   border: none;
   font-size: 1.1rem;
-  margin: 2px; }
+  margin: 2px;
+  letter-spacing: .6px; }
   .lin-button:hover {
     background: #449d48; }
   .lin-button.is-secondary {
