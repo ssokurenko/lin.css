@@ -7,7 +7,7 @@
   overflow-x: auto;
 
   &.is-terminal {
-    background: $color-black;
+    background: $color-terminal-dark;
     color: $color-white;
     
     &:before {

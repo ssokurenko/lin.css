@@ -852,7 +852,7 @@ a {
   padding: 1rem;
   overflow-x: auto; }
   .lin-code.is-terminal {
-    background: #212121;
+    background: #24292e;
     color: #fff; }
     .lin-code.is-terminal:before {
       content: '$';
