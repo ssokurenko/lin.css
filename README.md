@@ -1,4 +1,4 @@
-# lin.css
+<img src="https://lin-css.netlify.com/assets/logo.png" width="60" height="60" /><span style="color: #4CAF50; margin-left: 1rem">lin.css</span>
 Minimalistic CSS-only UI framework
 
 Official website and documentation: [lin-css.netlify.com](https://lin-css.netlify.com/)
