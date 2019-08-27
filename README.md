@@ -1,6 +1,6 @@
-<img src="https://lin-css.netlify.com/assets/logo.png" width="60" height="60" style="float: right"/>
+<img src="https://lin-css.netlify.com/assets/logo.png" width="60" height="60" align="right"/>
 
-#lin.css
+# lin.css
 
 Minimalistic CSS-only UI framework
 
