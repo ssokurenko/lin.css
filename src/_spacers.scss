@@ -1,0 +1,8 @@
+.has-space {
+  &-top {
+    margin-top: $spacer !important;
+  }
+  &-bottom {
+    margin-bottom: $spacer !important;
+  }
+}

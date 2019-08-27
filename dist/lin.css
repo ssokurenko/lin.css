@@ -769,6 +769,12 @@ a {
     padding-bottom: 2px;
     border-color: #4CAF50; }
 
+.has-space-top {
+  margin-top: 1rem !important; }
+
+.has-space-bottom {
+  margin-bottom: 1rem !important; }
+
 .lin-logo {
   font-size: 2.2rem;
   margin-left: 1rem;
@@ -777,15 +783,16 @@ a {
 .lin-button {
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all .15s ease-in-out;
   display: inline-block;
-  padding: 0.7rem 1.2rem;
+  padding: 0.6rem 0.8rem;
   background: #4CAF50;
+  border: 1px solid transparent;
   color: #fff;
   cursor: pointer;
-  border: none;
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin: 2px;
-  letter-spacing: .6px; }
+  letter-spacing: .5px; }
   .lin-button.is-flat {
     box-shadow: none; }
   .lin-button:hover {
@@ -805,6 +812,23 @@ a {
     background: #dadada !important;
     color: #212121 !important;
     pointer-events: none; }
+  .lin-button.is-lite {
+    box-shadow: none;
+    background: none !important;
+    color: #4CAF50;
+    font-weight: 700; }
+    .lin-button.is-lite:hover {
+      border-color: #4CAF50; }
+    .lin-button.is-lite.is-secondary {
+      color: #03A9F4; }
+      .lin-button.is-lite.is-secondary:hover {
+        border-color: #03A9F4; }
+    .lin-button.is-lite.is-danger {
+      color: #FF5252; }
+      .lin-button.is-lite.is-danger:hover {
+        border-color: #FF5252; }
+    .lin-button.is-lite:disabled {
+      color: #dadada !important; }
 
 .lin-card {
   border: 1px solid #fafafa;
@@ -812,7 +836,8 @@ a {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   background: #fff;
   border-color: transparent;
-  padding: 1rem; }
+  padding: 1rem;
+  margin: 2px auto; }
   .lin-card.row {
     padding: 0; }
   .lin-card.is-flat {
@@ -824,7 +849,8 @@ a {
   font-size: 1.2rem;
   background: #fafafa;
   border-left: 4px solid #4CAF50;
-  padding: 1rem; }
+  padding: 1rem;
+  overflow-x: auto; }
   .lin-code.is-terminal {
     background: #212121;
     color: #fff; }

@@ -4,6 +4,7 @@
   background: $color-light-gray;
   border-left: 4px solid $color-primary;
   padding: $spacer;
+  overflow-x: auto;
 
   &.is-terminal {
     background: $color-black;

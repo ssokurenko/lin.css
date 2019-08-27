@@ -13,3 +13,7 @@
 @mixin flattened {
   box-shadow: none;
 }
+
+@mixin transitionAll {
+  transition: all .15s ease-in-out;
+}

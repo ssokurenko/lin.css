@@ -1,15 +1,16 @@
 .lin-button {
   @include rounded();
   @include elevated();
+  @include transitionAll();
   display: inline-block;
-  padding: .7*$spacer  1.2*$spacer;
+  padding: .6*$spacer  .8*$spacer;
   background: $color-primary;
+  border: 1px solid transparent;
   color: $color-white;
   cursor: pointer;
-  border: none;
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin: 2px;
-  letter-spacing: .6px;
+  letter-spacing: .5px;
 
   &.is-flat {
     @include flattened();
@@ -45,5 +46,34 @@
     background: $color-middle-gray !important;
     color: $color-black !important;
     pointer-events: none;
+  }
+
+  &.is-lite {
+    @include flattened();
+    background: none !important;
+    color: $color-primary;
+    font-weight: 700;
+
+    &:hover {
+      border-color: $color-primary;
+    }
+
+    &.is-secondary {
+      color: $color-secondary;
+      &:hover {
+        border-color: $color-secondary;
+      }
+    }
+
+    &.is-danger {
+      color: $color-danger;
+      &:hover {
+        border-color: $color-danger;
+      }
+    }
+
+    &:disabled {
+      color: $color-middle-gray !important;
+    }
   }
 }
