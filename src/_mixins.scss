@@ -17,3 +17,11 @@
 @mixin transitionAll {
   transition: all .15s ease-in-out;
 }
+
+@mixin minorVerticalSpacing {
+  margin: 2px auto;
+}
+
+@mixin fullWidth {
+  width: 100%;
+}

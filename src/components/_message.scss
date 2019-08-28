@@ -1,0 +1,25 @@
+.lin-message {
+  @include rounded();
+  @include fullWidth();
+  @include minorVerticalSpacing();
+  padding: $spacer;
+  border: 1px solid $color-primary;
+  letter-spacing: .2px;
+
+  &.is-secondary {
+    border-color: $color-secondary;
+  }
+
+  &.is-warning {
+    border-color: $color-warning;
+  }
+
+  &.is-danger {
+    color: $color-danger;
+    border-color: $color-danger;
+  }
+
+  & .lin-close {
+    float: right;
+  }
+}

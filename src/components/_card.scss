@@ -2,10 +2,10 @@
   @include bordered;
   @include rounded;
   @include elevated;
+  @include minorVerticalSpacing;
   background: $color-white;
   border-color: transparent;
   padding: $spacer;
-  margin: 2px auto;
 
   &.row {
     padding: 0;

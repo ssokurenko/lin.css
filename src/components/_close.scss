@@ -1,0 +1,62 @@
+.lin-close {
+  display: inline-block;
+  border-radius: 50%;
+  background: transparent;
+  width: 24px;
+  height: 24px;
+  position: relative;
+
+  &:hover {
+    cursor: pointer;
+
+    &:before,
+    &:after {
+      border-color: $color-black !important;
+    }
+  }
+
+  &:after {
+    content: '';
+    height: 24px;
+    border-left: 1px solid $color-primary;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 10px;
+  }
+
+  &:before {
+    content: '';
+    height: 24px;
+    border-left: 1px solid $color-primary;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 10px;
+  }
+}
+
+.is-secondary {
+  .lin-close {
+    &:before,
+    &:after {
+      border-color: $color-secondary;
+    }
+  }
+}
+
+.is-warning {
+  .lin-close {
+    &:before,
+    &:after {
+      border-color: $color-warning;
+    }
+  }
+}
+
+.is-danger {
+  .lin-close {
+    &:before,
+    &:after {
+      border-color: $color-danger;
+    }
+  }
+}
