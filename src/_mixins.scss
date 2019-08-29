@@ -25,3 +25,7 @@
 @mixin fullWidth {
   width: 100%;
 }
+
+@mixin letterSpacing {
+  letter-spacing: .5px;
+}

@@ -784,6 +784,7 @@ a {
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all .15s ease-in-out;
+  letter-spacing: .5px;
   display: inline-block;
   padding: 0.6rem 0.8rem;
   background: #4CAF50;
@@ -791,8 +792,7 @@ a {
   color: #fff;
   cursor: pointer;
   font-size: 1rem;
-  margin: 2px;
-  letter-spacing: .5px; }
+  margin: 2px; }
   .lin-button.is-flat {
     box-shadow: none; }
   .lin-button:hover {
@@ -916,3 +916,40 @@ a {
     border-color: #FF5252; }
   .lin-message .lin-close {
     float: right; }
+
+.lin-tag {
+  border-radius: 4px;
+  transition: all .15s ease-in-out;
+  margin: 2px auto;
+  letter-spacing: .5px;
+  border: 1px solid #4CAF50;
+  display: inline-block;
+  padding: 0.5rem;
+  cursor: pointer; }
+  .lin-tag:hover {
+    border-color: transparent;
+    background: #4CAF50;
+    color: #fff;
+    padding: 0.5rem; }
+  .lin-tag.is-secondary {
+    border-color: #03A9F4;
+    color: #03A9F4; }
+    .lin-tag.is-secondary:hover {
+      background: #03A9F4;
+      color: #fff; }
+  .lin-tag.is-warning {
+    border-color: #FFC107;
+    color: #FFC107; }
+    .lin-tag.is-warning:hover {
+      background: #FFC107;
+      color: #fff; }
+  .lin-tag.is-danger {
+    border-color: #FF5252;
+    color: #FF5252; }
+    .lin-tag.is-danger:hover {
+      background: #FF5252;
+      color: #fff; }
+  .lin-tag.is-disabled, .lin-tag:disabled {
+    border-color: #dadada;
+    pointer-events: none;
+    color: #dadada; }
