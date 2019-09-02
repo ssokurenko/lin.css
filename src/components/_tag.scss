@@ -5,14 +5,14 @@
   @include letterSpacing;
   border: 1px solid $color-primary;
   display: inline-block;
-  padding: $spacer / 2;
+  padding: .2*$spacer .5*$spacer;
   cursor: pointer;
 
   &:hover {
     border-color: transparent;
     background: $color-primary;
     color: $color-white;
-    padding: $spacer / 2;
+    padding: .2*$spacer .5*$spacer;
   }
 
   &.is-secondary {
