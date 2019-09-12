@@ -2,7 +2,7 @@
 
 # lin.css
 
-Minimalistic CSS-only UI framework
+Minimalist CSS-only UI framework
 
 Official website and documentation: [lin-css.netlify.com](https://lin-css.netlify.com/)
 
