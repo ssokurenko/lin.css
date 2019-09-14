@@ -1,0 +1,9 @@
+.is-hover-opaque {
+  opacity: .3;
+  transition: opacity 2s ease-out;
+
+  &:hover {
+    opacity: 1;
+    transition: opacity .2s ease-in;
+  }
+}

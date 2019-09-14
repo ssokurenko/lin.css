@@ -1,7 +1,7 @@
 .lin-code,
 figure.highlight,
 div.highlight {
-  font-family: monospace;
+  font-family: $font-mono;
   font-size: 1.22rem;
   background: $color-light-gray;
   border-left: 4px solid $color-primary;
@@ -22,7 +22,7 @@ div.highlight {
 
 code.highlighter-rouge,
 span.highlighter-rouge {
-  font-family: monospace;
+  font-family: $font-mono;
   background: $color-light-gray;
   padding: 4px;
 }
