@@ -856,7 +856,8 @@ a {
     border-color: #dadada; }
 
 .lin-code,
-figure.highlight {
+figure.highlight,
+div.highlight {
   font-family: monospace;
   font-size: 1.22rem;
   background: #fafafa;
@@ -865,11 +866,13 @@ figure.highlight {
   margin: 0;
   overflow-x: auto; }
   .lin-code.is-terminal,
-  figure.highlight.is-terminal {
+  figure.highlight.is-terminal,
+  div.highlight.is-terminal {
     background: #24292e;
     color: #fff; }
     .lin-code.is-terminal:before,
-    figure.highlight.is-terminal:before {
+    figure.highlight.is-terminal:before,
+    div.highlight.is-terminal:before {
       content: '$';
       margin-right: 0.5rem; }
 
