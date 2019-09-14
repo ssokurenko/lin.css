@@ -755,6 +755,9 @@ body {
   font-size: 1.2rem;
   line-height: 1.6; }
 
+p {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif; }
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300; }
 
@@ -762,13 +765,13 @@ pre {
   margin: 0; }
 
 a {
-  color: #4CAF50;
+  color: #03A9F4;
   text-decoration: none;
   border-bottom: 4px solid transparent;
   transition: border-color .2s ease-out; }
   a:hover {
     padding-bottom: 2px;
-    border-color: #61BD4F; }
+    border-color: #03A9F4; }
 
 .has-space-top {
   margin-top: 1rem !important; }
@@ -777,9 +780,8 @@ a {
   margin-bottom: 1rem !important; }
 
 .lin-logo {
-  font-size: 2.2rem;
-  margin-left: 1rem;
-  color: #61BD4F; }
+  font-size: 2rem;
+  margin-left: 1rem; }
 
 .lin-button {
   border-radius: 4px;
@@ -788,7 +790,7 @@ a {
   letter-spacing: .5px;
   display: inline-block;
   padding: 0.6rem 0.8rem;
-  background: #61BD4F;
+  background: #03A9F4;
   border: 1px solid transparent;
   color: #fff;
   cursor: pointer;
@@ -797,11 +799,11 @@ a {
   .lin-button.is-flat {
     box-shadow: none; }
   .lin-button:hover {
-    background: #54b042; }
+    background: #0398db; }
   .lin-button.is-secondary {
-    background: #03A9F4; }
+    background: #61BD4F; }
     .lin-button.is-secondary:hover {
-      background: #0398db; }
+      background: #54b042; }
   .lin-button.is-danger {
     background: #FF5252; }
     .lin-button.is-danger:hover {
@@ -816,14 +818,14 @@ a {
   .lin-button.is-lite {
     box-shadow: none;
     background: none !important;
-    color: #61BD4F;
+    color: #03A9F4;
     font-weight: 700; }
     .lin-button.is-lite:hover {
-      border-color: #61BD4F; }
+      border-color: #03A9F4; }
     .lin-button.is-lite.is-secondary {
-      color: #03A9F4; }
+      color: #61BD4F; }
       .lin-button.is-lite.is-secondary:hover {
-        border-color: #03A9F4; }
+        border-color: #61BD4F; }
     .lin-button.is-lite.is-danger {
       color: #FF5252; }
       .lin-button.is-lite.is-danger:hover {
@@ -849,7 +851,7 @@ a {
   font-family: monospace;
   font-size: 1.2rem;
   background: #fafafa;
-  border-left: 4px solid #61BD4F;
+  border-left: 4px solid #03A9F4;
   padding: 1rem;
   overflow-x: auto; }
   .lin-code.is-terminal {
@@ -873,20 +875,20 @@ a {
   .lin-close:after {
     content: '';
     height: 24px;
-    border-left: 1px solid #61BD4F;
+    border-left: 1px solid #03A9F4;
     position: absolute;
     transform: rotate(45deg);
     left: 10px; }
   .lin-close:before {
     content: '';
     height: 24px;
-    border-left: 1px solid #61BD4F;
+    border-left: 1px solid #03A9F4;
     position: absolute;
     transform: rotate(-45deg);
     left: 10px; }
 
 .is-secondary .lin-close:before, .is-secondary .lin-close:after {
-  border-color: #03A9F4; }
+  border-color: #61BD4F; }
 
 .is-warning .lin-close:before, .is-warning .lin-close:after {
   border-color: #FFC107; }
@@ -906,10 +908,10 @@ a {
   margin: 2px auto;
   padding: 0.5rem;
   padding-left: 1rem;
-  border: 1px solid #61BD4F;
+  border: 1px solid #03A9F4;
   letter-spacing: .2px; }
   .lin-message.is-secondary {
-    border-color: #03A9F4; }
+    border-color: #61BD4F; }
   .lin-message.is-warning {
     border-color: #FFC107; }
   .lin-message.is-danger {
@@ -923,20 +925,20 @@ a {
   transition: all .15s ease-in-out;
   margin: 2px auto;
   letter-spacing: .5px;
-  border: 1px solid #61BD4F;
+  border: 1px solid #03A9F4;
   display: inline-block;
   padding: 0.2rem 0.5rem;
   cursor: pointer; }
   .lin-tag:hover {
     border-color: transparent;
-    background: #61BD4F;
+    background: #03A9F4;
     color: #fff;
     padding: 0.2rem 0.5rem; }
   .lin-tag.is-secondary {
-    border-color: #03A9F4;
-    color: #03A9F4; }
+    border-color: #61BD4F;
+    color: #61BD4F; }
     .lin-tag.is-secondary:hover {
-      background: #03A9F4;
+      background: #61BD4F;
       color: #fff; }
   .lin-tag.is-warning {
     border-color: #FFC107;

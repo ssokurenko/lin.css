@@ -11,9 +11,9 @@ $color-red: #FF5252;
 $color-yellow: #FFC107;
 $color-terminal-dark: #24292e;
 
-$color-primary: $color-green !default;
-$color-link: $color-dark-green !default;
-$color-secondary: $color-blue !default;
+$color-primary: $color-blue !default;
+$color-link: $color-blue !default;
+$color-secondary: $color-green !default;
 $color-warning: $color-yellow !default;
 $color-danger: $color-red !default;
 
@@ -21,7 +21,8 @@ $color-danger: $color-red !default;
 $border-radius: 4px;
 
 //Typography
-$font-sans-serif: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif  !default;
+$font-sans-serif: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !default;
+$font-serif: Georgia, Cambria, "Times New Roman", Times, serif !default;
 $font-normal: 300 !default;
 
 //Grid
