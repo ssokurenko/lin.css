@@ -954,3 +954,182 @@ a {
     border-color: #dadada;
     pointer-events: none;
     color: #dadada; }
+
+@font-face {
+  font-family: 'lin-icons';
+  src: url("fonts/lin-icons.eot?cvphkp");
+  src: url("fonts/lin-icons.eot?cvphkp#iefix") format("embedded-opentype"), url("fonts/lin-icons.ttf?cvphkp") format("truetype"), url("fonts/lin-icons.woff?cvphkp") format("woff"), url("fonts/lin-icons.svg?cvphkp#lin-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
+
+[class^="lin-icon-"], [class*=" lin-icon-"] {
+  font-family: 'lin-icons' !important;
+  font-size: 2rem;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.lin-icon-googlepay:before {
+  content: "\e927";
+  color: #5f6368; }
+
+.lin-icon-applepay:before {
+  content: "\e928"; }
+
+.lin-icon-paypal:before {
+  content: "\e929";
+  color: #00457c; }
+
+.lin-icon-tiktok:before {
+  content: "\e925"; }
+
+.lin-icon-behance:before {
+  content: "\e920";
+  color: #1769ff; }
+
+.lin-icon-discord:before {
+  content: "\e924";
+  color: #7289da; }
+
+.lin-icon-snapchat:before {
+  content: "\e921";
+  color: #fffc00; }
+
+.lin-icon-skype:before {
+  content: "\e922";
+  color: #00aff0; }
+
+.lin-icon-messenger:before {
+  content: "\e923";
+  color: #00b2ff; }
+
+.lin-icon-docker:before {
+  content: "\e91f";
+  color: #1488c6; }
+
+.lin-icon-twitch:before {
+  content: "\e91e";
+  color: #6441a4; }
+
+.lin-icon-steam:before {
+  content: "\e900"; }
+
+.lin-icon-azure:before {
+  content: "\e901";
+  color: #0089d6; }
+
+.lin-icon-devops:before {
+  content: "\e902";
+  color: #0078d7; }
+
+.lin-icon-amazon:before {
+  content: "\e903";
+  color: #f90; }
+
+.lin-icon-viber:before {
+  content: "\e904";
+  color: #665cac; }
+
+.lin-icon-whatsapp:before {
+  content: "\e905";
+  color: #25d366; }
+
+.lin-icon-vk:before {
+  content: "\e906";
+  color: #6383a8; }
+
+.lin-icon-bitbucket:before {
+  content: "\e907";
+  color: #0052cc; }
+
+.lin-icon-gitlab:before {
+  content: "\e908";
+  color: #e24329; }
+
+.lin-icon-quora:before {
+  content: "\e909";
+  color: #b92b27; }
+
+.lin-icon-tencentqq:before {
+  content: "\e90a";
+  color: #eb1923; }
+
+.lin-icon-sinaweibo:before {
+  content: "\e90b";
+  color: #e6162d; }
+
+.lin-icon-wechat:before {
+  content: "\e90c";
+  color: #7bb32e; }
+
+.lin-icon-netlify:before {
+  content: "\e90d";
+  color: #00c7b7; }
+
+.lin-icon-npm:before {
+  content: "\e90e";
+  color: #cb3837; }
+
+.lin-icon-medium:before {
+  content: "\e90f"; }
+
+.lin-icon-slack:before {
+  content: "\e910";
+  color: #4a154b; }
+
+.lin-icon-keybase:before {
+  content: "\e911";
+  color: #33a0ff; }
+
+.lin-icon-googleplus:before {
+  content: "\e912";
+  color: #dc4e41; }
+
+.lin-icon-telegram:before {
+  content: "\e913";
+  color: #2ca5e0; }
+
+.lin-icon-youtube:before {
+  content: "\e914";
+  color: #f00; }
+
+.lin-icon-pinterest:before {
+  content: "\e915";
+  color: #bd081c; }
+
+.lin-icon-instagram:before {
+  content: "\e916";
+  color: #e4405f; }
+
+.lin-icon-flickr:before {
+  content: "\e917";
+  color: #0063dc; }
+
+.lin-icon-linkedin:before {
+  content: "\e918";
+  color: #0077b5; }
+
+.lin-icon-github:before {
+  content: "\e919"; }
+
+.lin-icon-rss:before {
+  content: "\e91a";
+  color: #ffa500; }
+
+.lin-icon-dribbble:before {
+  content: "\e91b";
+  color: #ea4c89; }
+
+.lin-icon-twitter:before {
+  content: "\e91c";
+  color: #1da1f2; }
+
+.lin-icon-facebook:before {
+  content: "\e91d";
+  color: #4172b8; }

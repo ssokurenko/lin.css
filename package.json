@@ -1,16 +1,15 @@
 {
   "name": "lin.css",
-  "version": "0.1.21",
+  "version": "0.2.0",
   "description": "Minimalistic CSS-only UI framework",
   "main": "dist/lin.min.css",
   "scripts": {
     "start": "npm install && npm run build:site && npm run serve",
-    "clean": "rm -rf dist",
     "clean:site": "rm -rf site/dist",
     "copy": "cp -rf dist site/dist",
     "build:normal": "node-sass src/index.scss dist/lin.css",
     "build:compressed": "node-sass src/index.scss dist/lin.min.css --output-style compressed",
-    "build": "npm run clean && npm run build:normal && npm run build:compressed",
+    "build": "npm run build:normal && npm run build:compressed",
     "build:site": "npm run clean:site && npm run build:compressed && npm run copy",
     "serve": "live-server site",
     "publish:npm": "npm run build && npm run build:site && npm publish"
