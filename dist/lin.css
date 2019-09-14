@@ -788,6 +788,8 @@ a {
 .lin-logo {
   font-size: 3rem;
   margin-left: 1rem; }
+  .lin-logo a {
+    color: #212121; }
   .lin-logo [class^="lin-icon-"] {
     font-size: 4rem; }
 

@@ -2,6 +2,10 @@
   font-size: 3rem;
   margin-left: $spacer;
 
+  a {
+    color: $color-black;
+  }
+
   & [class^="lin-icon-"] {
     font-size: 4rem;
   }
