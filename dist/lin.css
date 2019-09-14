@@ -755,11 +755,14 @@ body {
   font-size: 1.2rem;
   line-height: 1.6; }
 
-p {
+p, li {
   font-family: Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 1.3rem;
   margin: 1rem 0;
   padding: 0; }
+
+li {
+  margin: 0.2rem 0; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300; }
@@ -855,7 +858,7 @@ a {
 .lin-code,
 figure.highlight {
   font-family: monospace;
-  font-size: 1.2rem;
+  font-size: 1.22rem;
   background: #fafafa;
   border-left: 4px solid #03A9F4;
   padding: 1rem;
