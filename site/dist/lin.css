@@ -849,17 +849,20 @@ a {
     box-shadow: none;
     border-color: #dadada; }
 
-.lin-code {
+.lin-code,
+figure.highlight {
   font-family: monospace;
   font-size: 1.2rem;
   background: #fafafa;
   border-left: 4px solid #03A9F4;
   padding: 1rem;
   overflow-x: auto; }
-  .lin-code.is-terminal {
+  .lin-code.is-terminal,
+  figure.highlight.is-terminal {
     background: #24292e;
     color: #fff; }
-    .lin-code.is-terminal:before {
+    .lin-code.is-terminal:before,
+    figure.highlight.is-terminal:before {
       content: '$';
       margin-right: 0.5rem; }
 
