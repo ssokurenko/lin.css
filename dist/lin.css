@@ -780,8 +780,10 @@ a {
   margin-bottom: 1rem !important; }
 
 .lin-logo {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-left: 1rem; }
+  .lin-logo [class^="lin-icon-"] {
+    font-size: 4rem; }
 
 .lin-button {
   border-radius: 4px;
@@ -976,6 +978,10 @@ a {
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+.lin-icon-lincss:before {
+  content: "\e926";
+  color: #03A9F4; }
 
 .lin-icon-googlepay:before {
   content: "\e927";

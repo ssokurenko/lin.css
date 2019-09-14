@@ -23,6 +23,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.lin-icon-lincss:before {
+  content: "\e926";
+  color: $color-primary;
+}
+
 .lin-icon-googlepay:before {
   content: "\e927";
   color: #000;

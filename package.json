@@ -1,7 +1,7 @@
 {
   "name": "lin.css",
-  "version": "0.2.2",
-  "description": "Minimalistic CSS-only UI framework",
+  "version": "0.3.0",
+  "description": "Minimalist CSS-only UI framework",
   "main": "dist/lin.min.css",
   "scripts": {
     "start": "npm install && npm run build:site && npm run serve",

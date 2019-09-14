@@ -1,4 +1,8 @@
 .lin-logo {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-left: $spacer;
+
+  & [class^="lin-icon-"] {
+    font-size: 4rem;
+  }
 }
