@@ -5,6 +5,7 @@ figure.highlight {
   background: $color-light-gray;
   border-left: 4px solid $color-primary;
   padding: $spacer;
+  margin: 0;
   overflow-x: auto;
 
   &.is-terminal {
@@ -16,4 +17,10 @@ figure.highlight {
       margin-right: $spacer / 2;
     }
   }
+}
+
+.highlighter-rouge {
+  font-family: monospace;
+  background: $color-light-gray;
+  padding: 4px;
 }

@@ -10,6 +10,9 @@ body {
 
 p {
   font-family: $font-serif;
+  font-size: 1.3rem;
+  margin: $spacer 0;
+  padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
