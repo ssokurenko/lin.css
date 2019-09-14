@@ -876,7 +876,8 @@ div.highlight {
       content: '$';
       margin-right: 0.5rem; }
 
-.highlighter-rouge {
+code.highlighter-rouge,
+span.highlighter-rouge {
   font-family: monospace;
   background: #fafafa;
   padding: 4px; }

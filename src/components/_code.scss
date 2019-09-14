@@ -20,7 +20,8 @@ div.highlight {
   }
 }
 
-.highlighter-rouge {
+code.highlighter-rouge,
+span.highlighter-rouge {
   font-family: monospace;
   background: $color-light-gray;
   padding: 4px;
