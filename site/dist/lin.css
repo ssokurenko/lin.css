@@ -977,10 +977,11 @@ a {
 
 .lin-icon-googlepay:before {
   content: "\e927";
-  color: #5f6368; }
+  color: #000; }
 
 .lin-icon-applepay:before {
-  content: "\e928"; }
+  content: "\e928";
+  color: #000; }
 
 .lin-icon-paypal:before {
   content: "\e929";
@@ -1018,7 +1019,8 @@ a {
   color: #6441a4; }
 
 .lin-icon-steam:before {
-  content: "\e900"; }
+  content: "\e900";
+  color: #171a21; }
 
 .lin-icon-azure:before {
   content: "\e901";
@@ -1077,7 +1079,8 @@ a {
   color: #cb3837; }
 
 .lin-icon-medium:before {
-  content: "\e90f"; }
+  content: "\e90f";
+  color: #000; }
 
 .lin-icon-slack:before {
   content: "\e910";
@@ -1116,7 +1119,8 @@ a {
   color: #0077b5; }
 
 .lin-icon-github:before {
-  content: "\e919"; }
+  content: "\e919";
+  color: #24292e; }
 
 .lin-icon-rss:before {
   content: "\e91a";
