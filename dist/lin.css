@@ -733,6 +733,10 @@ template {
   .is-flex-center {
     display: flex;
     align-items: center; }
+  .is-flex-end {
+    justify-content: flex-end; }
+  .is-flex-start {
+    justify-content: flex-start; }
 
 .text-center {
   text-align: center !important; }
