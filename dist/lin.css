@@ -779,6 +779,9 @@ a {
     padding-bottom: 2px;
     border-color: #03A9F4; }
 
+article {
+  min-height: 70vh; }
+
 .has-space-top {
   margin-top: 1rem !important; }
 

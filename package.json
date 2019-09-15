@@ -1,6 +1,6 @@
 {
   "name": "lin.css",
-  "version": "0.3.9",
+  "version": "0.3.10",
   "description": "Minimalist CSS-only UI framework",
   "main": "dist/lin.min.css",
   "scripts": {
