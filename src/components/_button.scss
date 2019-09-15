@@ -1,7 +1,6 @@
 .lin-button {
   @include rounded();
   @include elevated();
-  @include transitionAll();
   @include letterSpacing;
   display: inline-block;
   padding: .6*$spacer  .8*$spacer;
