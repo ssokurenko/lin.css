@@ -1174,3 +1174,10 @@ span.highlighter-rouge {
 .lin-icon-facebook:before {
   content: "\e91d";
   color: #4172b8; }
+
+.lin-image {
+  border-radius: 4px;
+  width: 100%;
+  max-width: 100%; }
+  .lin-image.is-round {
+    border-radius: 50%; }

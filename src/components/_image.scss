@@ -1,0 +1,9 @@
+.lin-image {
+  @include rounded();
+  width: 100%;
+  max-width: 100%;
+
+  &.is-round {
+    border-radius: 50%;
+  }
+}
