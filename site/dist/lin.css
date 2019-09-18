@@ -812,13 +812,14 @@ a.lin-logo {
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   letter-spacing: .5px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   display: inline-block;
   padding: 0.6rem 0.8rem;
   background: #03A9F4;
   border: 1px solid transparent;
   color: #fff;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin: 2px; }
   .lin-button.is-flat {
     box-shadow: none; }
@@ -1187,3 +1188,32 @@ span.highlighter-rouge {
   max-width: 100%; }
   .lin-image.is-round {
     border-radius: 50%; }
+
+form {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+  form p {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    margin: 0 0 1.5rem 0; }
+
+label {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  display: block; }
+
+.lin-input {
+  border-radius: 4px;
+  border: 1px solid #fafafa;
+  display: block;
+  background: #fff;
+  width: 24rem;
+  max-width: 100%;
+  padding: 10px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1.5rem;
+  border-color: #dadada; }
+  .lin-input:focus {
+    border-color: #03A9F4; }
+
+input[type=checkbox],
+input[type=radio] {
+  margin-right: 1rem;
+  cursor: pointer; }

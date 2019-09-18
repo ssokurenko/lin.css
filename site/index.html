@@ -34,7 +34,7 @@
     <div class="row has-space-top has-space-bottom">
       <div class="col-md-4 col-sm-12 is-flex-center">
         <span class="lin-logo is-flex-center"">
-          <i class="lin-icon-lincss"></i>&nbsp;
+          <i class=" lin-icon-lincss"></i>&nbsp;
           lin.css
         </span>
       </div>
@@ -55,7 +55,8 @@
       </div>
       <div class="col-md-6 col-sm-12 text-right has-space-top">
         <div>
-          Super fast hosting by <a href="https://www.netlify.com/" title="Netlify"><span class="lin-icon-netlify"></span></a>
+          Super fast hosting by <a href="https://www.netlify.com/" title="Netlify"><span
+              class="lin-icon-netlify"></span></a>
         </div>
       </div>
       <div class="col-md-12">
@@ -89,6 +90,7 @@
         <a href="#card" class="lin-tag">Card</a>
         <a href="#code" class="lin-tag">Code snippet</a>
         <a href="#code" class="lin-tag">Terminal command</a>
+        <a href="#form" class="lin-tag">Form and inputs</a>
         <a href="#icon" class="lin-tag">Icon</a>
         <a href="#image" class="lin-tag">Image</a>
         <a href="#message" class="lin-tag">Message</a>
@@ -328,6 +330,111 @@ Code snippet
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="lin-code is-terminal">Terminal command</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="divider"></div>
+      </div>
+      <div class="col-md-12">
+        <h2 id="form">Form and inputs</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="lin-code">
+              <pre>
+&lt;form name=&quot;contact&quot; method=&quot;POST&quot;&gt;
+  &lt;p&gt;
+    &lt;label&gt;
+      Name
+      &lt;input class=&quot;lin-input&quot; type=&quot;text&quot; name=&quot;name&quot;/&gt;
+    &lt;/label&gt;
+  &lt;/p&gt;
+  &lt;p&gt;
+    &lt;label&gt;
+      Email
+      &lt;input class=&quot;lin-input&quot; type=&quot;email&quot; name=&quot;email&quot;/&gt;
+    &lt;/label&gt;
+  &lt;/p&gt;
+  &lt;p&gt;
+    &lt;label&gt;
+      Role
+      &lt;select class=&quot;lin-input&quot; name=&quot;role[]&quot;&gt;
+        &lt;option value=&quot;leader&quot;&gt;Leader&lt;/option&gt;
+        &lt;option value=&quot;follower&quot;&gt;Follower&lt;/option&gt;
+      &lt;/select&gt;
+    &lt;/label&gt;
+  &lt;/p&gt;
+  &lt;p&gt;
+    &lt;label&gt;
+      Message
+      &lt;textarea class=&quot;lin-input&quot; name=&quot;message&quot;&gt;
+      &lt;/textarea&gt;
+    &lt;/label&gt;
+  &lt;/p&gt;
+  &lt;p&gt;
+    &lt;label class=&quot;is-flex-center&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; name=&quot;fine&quot;&gt;
+      That's fine
+    &lt;/label&gt;
+  &lt;/p&gt;
+  &lt;p&gt;
+    &lt;label class=&quot;is-flex-center&quot;&gt;
+      &lt;input type=&quot;radio&quot; name=&quot;accept&quot; value=&quot;yes&quot; checked&gt;
+      Yes
+    &lt;/label&gt;
+    &lt;label class=&quot;is-flex-center&quot;&gt;
+      &lt;input type=&quot;radio&quot; name=&quot;accept&quot; value=&quot;no&quot;&gt;
+      No
+    &lt;/label&gt;
+  &lt;/p&gt;
+  &lt;p&gt;
+    &lt;button class=&quot;lin-button&quot; type=&quot;submit&quot;&gt;
+    Send
+    &lt;/button&gt;
+  &lt;/p&gt;
+&lt;/form&gt;
+              </pre>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <form name="contact" method="POST">
+              <p>
+                <label>Name<input class="lin-input" type="text" name="name" /></label>
+              </p>
+              <p>
+                <label>Email<input class="lin-input" type="email" name="email" /></label>
+              </p>
+              <p>
+                <label>Role
+                  <select class="lin-input" name="role[]">
+                    <option value="leader">Leader</option>
+                    <option value="follower">Follower</option>
+                  </select>
+                </label>
+              </p>
+              <p>
+                <label>
+                  Message
+                  <textarea class="lin-input" name="message"></textarea>
+                </label>
+              </p>
+              <p>
+                <label class="is-flex-center">
+                  <input type="checkbox" name="fine">That's fine
+                </label>
+              </p>
+              <p>
+                <label class="is-flex-center">
+                  <input type="radio" name="accept" value="yes" checked>Yes
+                </label>
+                <label class="is-flex-center">
+                  <input type="radio" name="accept" value="no">No
+                </label>
+              </p>
+              <p>
+                <button class="lin-button" type="submit">Send</button>
+              </p>
+            </form>
           </div>
         </div>
       </div>
@@ -809,7 +916,7 @@ Code snippet
         <div class="row">
           <div class="col-md-6 col-sm-12">
             <div class="lin-code">
-<pre>
+              <pre>
 &lt;img class="lin-image" src="[path]"&gt;
 </pre>
             </div>
@@ -820,7 +927,7 @@ Code snippet
 
           <div class="col-md-6 col-sm-12">
             <div class="lin-code">
-<pre>
+              <pre>
 &lt;img class="lin-image is-round" src="[path]"&gt;
 </pre>
             </div>
@@ -948,8 +1055,7 @@ Code snippet
       &nbsp;
       Free for personal and commercial use. No attribution required.
       &nbsp;
-      <a href="https://github.com/ssokurenko/lin.css"
-        target="_blank">Fork on Github.</a>
+      <a href="https://github.com/ssokurenko/lin.css" target="_blank">Fork on Github.</a>
     </footer>
   </div>
   </div>

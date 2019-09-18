@@ -1,0 +1,35 @@
+form {
+  font-family: $font-sans-serif;
+  & p {
+    font-family: $font-sans-serif;
+    margin: 0 0 1.5rem 0;
+  }
+}
+
+label {
+  font-family: $font-sans-serif;
+  display: block;
+}
+
+.lin-input {
+  @include rounded();
+  @include bordered();
+  display: block;
+  background: $color-white;
+  width: 24rem;
+  max-width: 100%;
+  padding: 10px;
+  font-family: $font-sans-serif;
+  font-size: 1.5rem;
+  border-color: $color-middle-gray;
+
+  &:focus {
+    border-color: $color-primary
+  }
+}
+
+input[type=checkbox],
+input[type=radio] {
+  margin-right: 1rem;
+  cursor: pointer;
+}
