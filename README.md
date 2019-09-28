@@ -1,5 +1,3 @@
-<img src="https://lin-css.netlify.com/assets/logo.png" width="60" height="60" align="right"/>
-
 # lin.css
 
 Minimalist CSS-only UI framework
