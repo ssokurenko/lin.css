@@ -8,7 +8,11 @@ form {
 
 label {
   font-family: $font-sans-serif;
+  font-size: 1.1rem;
   display: block;
+  &.lin-input-label {
+    font-size: .9rem;
+  }
 }
 
 .lin-input {
@@ -16,11 +20,10 @@ label {
   @include bordered();
   display: block;
   background: $color-white;
-  width: 24rem;
   max-width: 100%;
-  padding: 10px;
+  padding: 6px 10px;
   font-family: $font-sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   border-color: $color-middle-gray;
 
   &:focus {
