@@ -1,5 +1,6 @@
 .lin-logo,
 a.lin-logo {
+  @include fontFamily;
   font-size: 2.8rem;
   margin-left: $spacer;
   color: $color-black;

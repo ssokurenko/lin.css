@@ -750,14 +750,14 @@ template {
 .is-larger {
   font-size: 120%; }
 
-body {
+.lin-body {
   background: #fafafa;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
   color: #212121;
   margin: 0;
-  font-size: 1.2rem;
   line-height: 1.6; }
+
+.lin-font {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
 p, li {
   font-family: Georgia, Cambria, "Times New Roman", Times, serif;
@@ -769,6 +769,7 @@ li {
   margin: 0.2rem 0; }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300; }
 
 pre {
@@ -801,6 +802,7 @@ article {
 
 .lin-logo,
 a.lin-logo {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 2.8rem;
   margin-left: 1rem;
   color: #212121; }
@@ -812,13 +814,13 @@ a.lin-logo {
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   letter-spacing: .5px;
+  cursor: pointer;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   display: inline-block;
   padding: 0.6rem 0.8rem;
   background: #03A9F4;
   border: 1px solid transparent;
   color: #fff;
-  cursor: pointer;
   font-size: 1.1rem;
   margin: 2px; }
   .lin-button.is-flat {
@@ -963,10 +965,11 @@ span.highlighter-rouge {
   transition: all .15s ease-in-out;
   margin: 2px auto;
   letter-spacing: .5px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  cursor: pointer;
   border: 1px solid #03A9F4;
   display: inline-block;
-  padding: 0.2rem 0.5rem;
-  cursor: pointer; }
+  padding: 0.2rem 0.5rem; }
   .lin-tag:hover {
     border-color: transparent;
     background: #03A9F4;

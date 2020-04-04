@@ -29,3 +29,11 @@
 @mixin letterSpacing {
   letter-spacing: .5px;
 }
+
+@mixin fontFamily {
+  font-family: $font-sans-serif;
+}
+
+@mixin pointer {
+  cursor: pointer;
+}

@@ -3,10 +3,12 @@
   @include transitionAll;
   @include minorVerticalSpacing;
   @include letterSpacing;
+  @include fontFamily;
+  @include pointer;
   border: 1px solid $color-primary;
   display: inline-block;
   padding: .2*$spacer .5*$spacer;
-  cursor: pointer;
+  
 
   &:hover {
     border-color: transparent;
